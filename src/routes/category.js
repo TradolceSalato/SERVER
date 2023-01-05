@@ -7,7 +7,7 @@ const categories = require('../db/db')
 
 category.get('/api/categories', (req, res) => {
   res.json([{
-    title : "Masse Montate MALE",
+    title : "Masse Montate",
     image : "https://www.misya.info/wp-content/uploads/2018/08/pan-di-spagna.jpg"
 },
 {
